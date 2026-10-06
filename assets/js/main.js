@@ -44,7 +44,7 @@
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && nav.classList.contains('is-open')) { setMenu(false); toggle.focus(); }
   });
-  window.matchMedia('(min-width: 961px)').addEventListener('change', (m) => { if (m.matches) setMenu(false); });
+  window.matchMedia('(min-width: 1141px)').addEventListener('change', (m) => { if (m.matches) setMenu(false); });
 
   /* ---------- Reveal ao rolar ---------- */
   const reveals = document.querySelectorAll('.reveal');
