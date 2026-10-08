@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://xavierteixeiraadvogados.com/sitemap.xml
